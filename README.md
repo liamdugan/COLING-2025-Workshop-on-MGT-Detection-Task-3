@@ -3,9 +3,9 @@
 [![Code License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://raw.githubusercontent.com/mbzuai-nlp/SemEval2024-task8/subtask_A_and_B/LICENSE)
 
 
-<!-- <p align="left" float="left">
-  <img src="images/logo.png" height="40" />
-</p> -->
+<p align="left" float="left">
+  <img src="logo.png" height="40" />
+</p>
 
 
 [News](#news) | [Competition](#competition) | [Dataset](#dataset) | [Important Dates](#important_dates) | [Data Format](#data_format) | [Evaluation Metrics](#scorer_and_official_evaluation_metrics) | [Baselines](#baselines) | [Contact](#contact)
