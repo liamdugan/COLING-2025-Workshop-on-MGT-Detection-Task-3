@@ -38,6 +38,10 @@ There are two subtasks:
 
 We have released our instructions and training set.
 
+### 24 Sep 2024
+
+We have released our format checking script.
+
 ## <a name="competition"></a>Competition
 
 The competition will be held on the [RAID Website](https://raid-bench.xyz/). We will be releasing a separate leaderboard specifically for the shared task that will exist alongside the main RAID leaderboard and will be populated with results after the task finishes.
@@ -61,7 +65,26 @@ For this task we will be using the RAID dataset.
 
 ## <a name="data_format"></a>Prediction File Format and Format Checkers
 
-We currently are working on a file format checker. This will be released soon.
+In order to run our automatic evaluation, your submission must include a file named `predictions.json`.
+This file should be valid JSON and should be of the following format:
+```
+[
+  {"id": "64005577-3d63-4583-8945-7541d3e53e7d", "score": 0.0021110873541056},
+  {"id": "c2b9df67-4e29-45ca-bdcc-7065fb907b77", "score": 0.9116235922302712},
+  ...
+]
+```
+The provided `run_detection` function from the [RAID Pypi package](https://pypi.org/project/raid-bench/) will output predictions in this format. 
+If you would like to use your own code, you can run something like the below snippet to output in the correct format.
+```py
+with open(output_path, "w") as f:
+  json.dump(df[["id", "score"]].to_dict(orient="records"), f)
+```
+
+To check your submission's correctness please run our provided format checker as follows:
+```
+$ python format_check.py --results_path <your_file>.json
+```
 
 ## <a name="scorer_and_official_evaluation_metrics"></a>Scorer and Official Evaluation Metrics
 
