@@ -50,9 +50,9 @@ The competition will be held on the [RAID Website](https://raid-bench.xyz/). We 
 
 To submit to the shared task, you must first get predictions for your detector on the test set. Please consult the [RAID Leaderboard Submission Instructions](https://github.com/liamdugan/raid?tab=readme-ov-file#leaderboard-submission) for more details on how to get the `predictions.json` file for your detector.
 
-After you have the `predictions.json` file you must then write a metadata file for your submission. Your metadata file should use the template found in this repository at `template-metadata.json`.
+After you have the `predictions.json` file you must then write a metadata file for your submission. Your metadata file should use the template found in this repository at `submissions/template-metadata.json`.
 
-Finally, fork this repository. Add your files to `submissions/YOUR-DETECTOR-NAME/predictions.json` and your metadata file to `submissions/YOUR-DETECTOR-NAME/metadata.json` and make a pull request to this repository. We have provided an example submission of the OpenAI Roberta Large classifier under `/submissions/openai-roberta-large`.
+Finally, fork this repository. Add your files to `submissions/YOUR-DETECTOR-NAME/predictions.json` and your metadata file to `submissions/YOUR-DETECTOR-NAME/metadata.json` and make a pull request to this repository. We have provided an example submission of the OpenAI Roberta Large classifier under `submissions/openai-roberta-large`.
 
 > [!NOTE]
 > Please **DO NOT SUBMIT** to the main RAID leaderboard during the duration of the shared task. If you do so, **you will be disqualified.**
