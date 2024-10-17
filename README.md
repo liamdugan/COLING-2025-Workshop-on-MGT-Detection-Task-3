@@ -63,9 +63,8 @@ For this task we will be using the RAID dataset.
 
 ## <a name="important_dates"></a>Important Dates
 
-- 18th September, 2024: Training set release
-- 20th October, 2024: Test set release and evaluation phase starts
-- 25th October, 2024: Evaluation phase closes
+- 18th September, 2024: Training & test set release
+- 25th October, 2024: Submission phase closes
 - 28th October, 2024: Leaderboard to be public
 - 15th November, 2024: System description paper submission
 
