@@ -1,0 +1,8 @@
+{
+  "date_released": "2020-02-13",
+  "detector_name": "facebook/bart-large-mnli",
+  "paper_link": "https://arxiv.org/pdf/1910.13461,https://arxiv.org/pdf/1909.00161",
+  "huggingface_link": "https://huggingface.co/facebook/bart-large-mnli",
+  "github_link": "https://github.com/pytorch/fairseq/tree/master/fairseq/models/bart",
+  "contact_info": "a.shifali@iitg.ac.in"
+}
