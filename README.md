@@ -44,6 +44,10 @@ We have released our instructions and training set.
 
 We have released our format checking script.
 
+### 22 Oct 2024
+
+The deadline for the competition has been extended to Nov 2nd 2024.
+
 ## <a name="competition"></a>Competition
 
 The competition will be held on the [RAID Website](https://raid-bench.xyz/). We will be releasing a separate leaderboard specifically for the shared task that will exist alongside the main RAID leaderboard and will be populated with results after the task finishes.
@@ -64,8 +68,8 @@ For this task we will be using the RAID dataset.
 ## <a name="important_dates"></a>Important Dates
 
 - 18th September, 2024: Training & test set release
-- 25th October, 2024: Submission phase closes
-- 28th October, 2024: Leaderboard to be public
+- **2nd November, 2024** ~~25th October, 2024~~: Submission phase closes
+- **5th November, 2024** ~~28th October, 2024~~: Leaderboard to be public
 - 15th November, 2024: System description paper submission
 
 ## <a name="data_format"></a>Prediction File Format and Format Checkers
