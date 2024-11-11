@@ -48,6 +48,14 @@ We have released our format checking script.
 
 The deadline for the competition has been extended to Nov 2nd 2024.
 
+### 2 Nov 2024
+
+The competition phase has ended and the evaluation phase has begun.
+
+### 6 Nov 2024
+
+The evaluation phase has ended and the [leaderboard](https://raid-bench.xyz/shared-task) is now live!
+
 ## <a name="competition"></a>Competition
 
 The competition will be held on the [RAID Website](https://raid-bench.xyz/). We will be releasing a separate leaderboard specifically for the shared task that will exist alongside the main RAID leaderboard and will be populated with results after the task finishes.
