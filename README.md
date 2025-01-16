@@ -142,3 +142,20 @@ We will also be releasing some simple baseline trained models on the RAID datase
 
 Website: [https://genai-content-detection.gitlab.io](https://genai-content-detection.gitlab.io)  
 Email: genai-content-detection@googlegroups.com or directly to ldugan@seas.upenn.edu
+
+## <a name="citation"></a>Citation
+
+If you use our code or findings in your research, please cite us as:
+
+```
+@misc{dugan2025genaicontentdetectiontask,
+      title={GenAI Content Detection Task 3: Cross-Domain Machine-Generated Text Detection Challenge}, 
+      author={Liam Dugan and Andrew Zhu and Firoj Alam and Preslav Nakov and Marianna Apidianaki and Chris Callison-Burch},
+      year={2025},
+      eprint={2501.08913},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2501.08913}, 
+}
+```
+
