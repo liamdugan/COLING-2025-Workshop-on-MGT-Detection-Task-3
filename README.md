@@ -56,6 +56,10 @@ The competition phase has ended and the evaluation phase has begun.
 
 The evaluation phase has ended and the [leaderboard](https://raid-bench.xyz/shared-task) is now live!
 
+### 15 Jan 2025
+
+The summary [paper](https://arxiv.org/abs/2501.08913) for the shared task is complete!
+
 ## <a name="competition"></a>Competition
 
 The competition will be held on the [RAID Website](https://raid-bench.xyz/). We will be releasing a separate leaderboard specifically for the shared task that will exist alongside the main RAID leaderboard and will be populated with results after the task finishes.
